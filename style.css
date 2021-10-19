@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    margin-top: 2rem;
+    background-color: #f7f7f7;
+    background-image: url("img/en.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#translate-text {
+    border-radius: 5px;
+    border: 0.4px solid black;
+}
+#translate-text:focus{
+    border: 1px solid black;
+}
+.card {
+    margin-top: 10px;
+}
