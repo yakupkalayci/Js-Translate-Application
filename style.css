@@ -11,10 +11,11 @@ body{
 }
 #translate-text {
     border-radius: 5px;
-    border: 0.4px solid black;
+    border: none;
+    border-bottom: 1px solid black;
 }
 #translate-text:focus{
-    border: 1px solid black;
+    border-bottom: 1px solid rgb(0, 38, 255);
 }
 .card {
     margin-top: 10px;
@@ -27,4 +28,11 @@ body{
 }
 .background-es {
     background-image: url("img/es.png");
+}
+#translateBtn {
+    margin-top: 12px;
+}
+#translated-text {
+    font-size: 1.5rem;
+    color: red;
 }
